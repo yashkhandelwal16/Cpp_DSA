@@ -50,7 +50,7 @@ class Truck{                     //It is also a kind of Class/Userdefined Dataty
 };
 void funprint(string d,int g){
     cout<<"Name - "<<d<<" and "<<"Average - "<<g<<endl<<endl;
-}
+}      
 
 void funtruck(string c ,string d,int a, int b ,float s){
     cout<<"Name - "<<c<<" and "<<"Average - "<<a<<" and "<<"Color - "<<d<<" and "<<"Seat - "<<b<<" and "<<"RPM - "<<s<<endl<<endl;
@@ -67,7 +67,7 @@ int main(){
 
     Car s3("MiniCooper");        //In which One is for constructor which only taken name. 
     s3.average = 30000;          //One is for traditionally way.
-    funprint(s3.name,s3.average);
+    funprint(s3.name,s3.average);     
 
     Car s4(7000);
     s4.name = "Mazretti";
