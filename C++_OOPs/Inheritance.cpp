@@ -35,13 +35,17 @@ class Player : public IPL
 public: // to player, It is a Multilevel Inheritance.
     string playername;
 };
-class Jadeja : public Cricketer, public IPL
+class Rohit{
+    public:
+    int no_of_200hits;
+};
+class Jadeja : public Player,public Rohit
 { // It is a Multiple Inheritance.
 public:
     string category;
     void display()
     {
-        cout <<runs << " " <<average << " " <<wickets << " " <<teamname << " " <<tropies << endl;
+        cout <<runs << " " <<average << " " <<wickets << " " <<teamname << " " <<tropies << " "<<no_of_200hits<<endl;
     }
 };
 
@@ -53,6 +57,7 @@ int main()
     j1.wickets = 500;
     j1.teamname = "Chennai Superkings";
     j1.tropies = 7;
+    j1.no_of_200hits = 2;
     j1.display();
 
     return 0;
