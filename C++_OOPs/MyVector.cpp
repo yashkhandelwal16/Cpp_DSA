@@ -16,7 +16,7 @@
 
 
 //In C++ programming, a vector is a part of the Standard Template Library (STL) and is used to store elements in a dynamic array.
-//It provides flexibility and a host of useful functionalities over traditional arrays.
+//It provides flexibility and a lots of useful functionalities over traditional arrays.
 
 //----->>>>>>> What is a Vector?
 
