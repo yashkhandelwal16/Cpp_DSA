@@ -1,18 +1,19 @@
-#include <bits/stdc++.h>
+#include<iostream>
 using namespace std;
-
 int main(){
     int n;
-    cout<<"Enter the no : ";
-    cin >> n;
-    for (int i = 1; i <= n; i++) {
-        for (int j = 1; j <= n - i; j++) {
-            cout << "  ";
+    cout<<"Enter the number : ";
+    cin>>n;
+    for(int i=1;i<=n;i++){
+        // for spaces 
+        for(int j=1;j<=n-i;j++){
+            cout<<" ";
         }
-        for (int j = 1; j <= 2 * i - 1; j++) {
-            cout << "* ";
+        // for stars 
+        for(int j=1;j<=(2*i-1);j++){
+            cout<<"*";
         }
-        cout << endl;
+        cout<<endl;
     }
     return 0;
 }
