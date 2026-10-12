@@ -10,7 +10,6 @@ int main(){
     for(int i=0;i<=n-1;i++){
         cin>>arr[i];
     } 
-
     maximum = arr[0];
     for(int i=1;i<=n-1;i++){
         if(arr[i]>maximum){
